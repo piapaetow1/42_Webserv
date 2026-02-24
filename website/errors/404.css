@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../background/dark_cart.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/* background-size: 100% 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error-container {
+    text-align: center;
+    /* background-color: #020916; */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 5rem;
+    color: rgb(215, 215, 233);
+}
+
+p {
+    font-size: 1.5rem;
+    color: rgb(215, 215, 233);
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    /* background-color: rgb(77, 151, 73); */
+    color: rgb(215, 215, 233);
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+}
+
+a:hover {
+    color: rgb(137, 137, 150);
+	font-style: italic;
+}

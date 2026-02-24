@@ -1,0 +1,217 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(238, 247, 255);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  min-height: 100vh;                    
+  margin: 0;
+  padding: 50px 50px 75px 100px;
+}
+
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(238, 247, 255);
+  background-color: rgb(27, 46, 60);
+  padding: 50px 50px 75px 100px;
+}
+
+h1 {
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+i {
+	width: 20px;
+	color: rgb(165, 186, 214);
+}
+
+i:hover {
+	color: rgb(121, 140, 167);
+}
+
+ul {
+	margin-bottom: 30px;
+}
+
+a {
+	margin-bottom: 30px;
+	font-size: 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	cursor: grab;
+	text-decoration: none;
+}
+
+.item-entry {
+  margin: 20px 0;
+}
+
+#itemCheckbox {
+  font-size: 16px;
+  border: 1px solid rgb(165, 186, 214);
+}
+
+#newitemInput {
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(49, 72, 104);
+  width: 300px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+#additemBtn {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: rgb(165, 186, 214);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: grab;
+}
+
+#additemBtn:hover {
+  background-color: rgb(121, 140, 167);
+}
+
+#itemList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.shopping-item {
+  display: flex;
+  background: white;
+  color: rgb(49, 72, 104);
+  margin-top: 30px;
+  margin-bottom: 10px 10px;
+  padding: 10px;
+  margin-right: 200px;
+  border-radius: 6px;
+}
+
+.shopping-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.shopping-item span {
+  flex-grow: 1;
+}
+
+.shopping-item button {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 18px;
+  cursor: grab;
+}
+
+.inspiration {
+  margin-top: 30px;
+}
+
+.inspiration button {
+  background-color: rgb(108, 145, 194);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.inspiration button:hover {
+  background-color: rgb(76, 108, 150);
+  cursor: grab;
+}
+
+#recipeResult {
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+#infoBox {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #9e0909;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  font-family: Verdana, sans-serif;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+#infoBox.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#infoBox button {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 15px;
+  cursor: grab;
+  font-size: 16px;
+}
+
+.error-btn {
+  background-color: rgb(108, 145, 194);
+  color: white;
+  padding: 10px 16px;
+  margin: 6px 4px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.error-btn:hover {
+  background-color: rgb(76, 108, 150);
+  cursor: grab;
+}
+
+
+#bgButtonContainer {
+    float: right;
+    margin: 20px 100px 0px 0px;
+}
+
+#uploadBtn {
+  float: right;
+  background-color: rgb(108, 145, 194);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: grab;
+}
+
+#uploadBtn:hover {
+  background-color: rgb(76, 108, 150);
+} 
+
+#deleteBgBtn {
+    background-color: rgb(108, 145, 194);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: grab;
+    margin-right: 5px;
+}
+
+#deleteBgBtn:hover {
+    background-color: rgb(76, 108, 150);
+}

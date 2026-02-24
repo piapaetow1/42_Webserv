@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<title>Our Webserv</title>
+	<link rel="icon" href="favicon-16x16.ico" type="image/x-icon">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+  <body>
+
+    <h1>Our Shopping List </h1>
+		
+	<div id="bgButtonContainer" style="display: inline-block;">
+		<button id="deleteBgBtn" style="display: none;">Delete Background</button>
+		<button id="uploadBtn">Upload new background</button>
+	</div>
+
+	<input type="file" id="fileInput" accept="image/*" style="display: none;">
+
+    
+	<p>You can add and delete items</p>
+
+	<!-- item list container -->
+	<ul id="itemList"></ul>
+
+	<!-- item input box -->
+	<form id="addItemForm" action="/uploads/upload.txt" method="POST" class="add-item-form">
+		<input type="text" id="newitemInput" name="filecontent" placeholder="Enter new item..." required>
+		<button id="additemBtn" type="submit">+</button>
+	</form>
+
+	<!-- inspirational recipe -->
+	<div class="inspiration">
+		<button onclick="getInspiration()">Need inspiration?</button>
+		<div id="recipeResult"></div>
+
+	</div>
+	<div id="infoBox" class="hidden"></div>
+	<script src="app.js"></script>
+	</body>
+</html>
+
+
+
+<!-- http://localhost:8080/index.html -->

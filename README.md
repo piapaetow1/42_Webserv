@@ -68,3 +68,6 @@ Start the server with a configuration file:
 ./webserv configFiles/valid.conf
 
 Send requests via Terminal or go to http://localhost:8080
+
+
+This is a group project created in cooperation with Reu-si and phteeven1.
